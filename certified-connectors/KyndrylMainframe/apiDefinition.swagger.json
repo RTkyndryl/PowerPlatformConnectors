@@ -421,7 +421,7 @@
             "CA_CUSTOMER_NUM": {
               "type": "integer",
               "minimum": 0,
-              "maximum": 9999999999,
+              "maximum": 2147483647,
               "title": "",
               "format": "int32"
             },
@@ -495,7 +495,7 @@
             "CA_CUSTOMER_NUM": {
               "type": "integer",
               "minimum": 0,
-              "maximum": 9999999999
+              "maximum": 2147483647
             },
             "CA_CUSTOMER_REQUEST": {
               "type": "object",
@@ -647,7 +647,7 @@
             "CA_CUSTOMER_NUM": {
               "type": "integer",
               "minimum": 0,
-              "maximum": 9999999999
+              "maximum": 2147483647
             },
             "CA_REQUEST_SPECIFIC": {
               "type": "string",
